@@ -1,0 +1,279 @@
+.head {
+  background-color: #1f456e;
+  padding: 3mm;
+  margin-inline: -10px;
+  margin-top: -10px;
+}
+.headInsidePage {
+  font-family: "Times New Roman", Times, serif;
+  color: azure;
+  background-color: #1f456e;
+  padding: 0.5em;
+  margin-inline: -10px;
+  margin-top: -10px;
+  margin-bottom: 1em;
+}
+.head a:link,
+.headInsidePage a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff7a00;
+  background: transparent;
+}
+.head a:visited,
+.headInsidePage a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: azure;
+}
+.head a:hover,
+.headInsidePage a:hover {
+  color: green;
+  background: transparent;
+  text-decoration: none;
+}
+.head a:active,
+.headInsidePage a:active {
+  color: #494949;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+.category {
+  margin-top: 1.5cm;
+  margin-bottom: 5mm;
+  display: flex;
+  justify-content: center;
+}
+.activeButton button,
+.inactiveButton button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  padding-top: 1mm;
+  padding-bottom: 1mm;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 25px;
+}
+.activeButton button {
+  background-color: lightblue;
+  border-style: none;
+}
+.inactiveButton button {
+  border-style: none;
+}
+.inactiveButton button:hover {
+  background-color: lightcyan;
+  text-decoration: none;
+}
+.item {
+  display: flex;
+  justify-content: center; /*dispaly and justify-content -- centered*/
+}
+.poster {
+  display: inline-block; /*no whitespace*/
+  margin-bottom: 1em;
+  padding: 8px;
+}
+.poster h5 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 0px;
+  font-size: medium;
+}
+.poster h6 {
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 0px;
+  font-size: small;
+}
+.poster img {
+  width: 337.5px;
+  height: 500px;
+  margin-bottom: -1em;
+  border-radius: 25px;
+}
+.footer {
+  background-color: #1f456e;
+  padding: 1px;
+  margin-inline: -10px;
+  margin-bottom: -10px;
+}
+.footer h6 {
+  text-align: center;
+  color: aliceblue;
+}
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+}
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+  background: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #494949;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+.turnBack {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  padding: 10px;
+  padding-left: 9em;
+}
+.turnBackActors {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  padding: 10px;
+  padding-left: 26em;
+}
+.turnBack a:link,
+.turnBackActors a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff7a00;
+  background: transparent;
+}
+.turnBack a:visited,
+.turnBackActors a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #91a3b4;
+}
+.turnBack a:hover,
+.turnBackActors a:hover {
+  color: #fa0000;
+  background: transparent;
+  text-decoration: none;
+}
+.turnBack a:active,
+.turnBackActors a:active {
+  color: #494949;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+.posterDisplay {
+  display: flex;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.posterDisplay img {
+  width: 450px;
+  height: 666.66px;
+  margin-bottom: 5em;
+  border-radius: 25px;
+}
+.detailsLayout {
+  padding-left: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailsLayout p {
+  line-height: 2em;
+}
+.detailsLayout button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  border-style: none;
+  padding-top: 2mm;
+  padding-bottom: 2mm;
+  padding-left: 4mm;
+  padding-right: 4mm;
+  margin-bottom: 2mm;
+}
+.detailsLayout button:hover {
+  background-color: lightcoral;
+}
+.linkedAM {
+  font-weight: normal;
+  color: #fa0000;
+}
+.posterDisplayActors {
+  display: flex;
+  padding-left: 30em;
+  padding-right: 30em;
+}
+.posterDisplayActors img {
+  width: 385.71px;
+  height: 571.42px;
+  border-radius: 25px;
+}
+.detailsActorsLayout {
+  padding-left: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailsActorsLayout p {
+  line-height: 2em;
+}
+.detailsActorsParaLayout {
+  margin-top: 2em;
+  padding-left: 30em;
+  padding-right: 30em;
+  margin-bottom: 4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailsActorsParaLayout p {
+  line-height: 2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.buttonFb {
+  font-size: 30px;
+  color: blue;
+  background-color: white;
+  border-style: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonFb:hover {
+  background-color: lightgrey;
+}
+.buttonIg {
+  font-size: 30px;
+  color: #e1306c;
+  background-color: white;
+  border-style: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonIg:hover {
+  background-color: lightgrey;
+}
+.buttonTwitter {
+  font-size: 30px;
+  color: skyblue;
+  background-color: white;
+  border-style: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonTwitter:hover {
+  background-color: lightgrey;
+}
